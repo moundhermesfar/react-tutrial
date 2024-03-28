@@ -1,10 +1,13 @@
 import HeroSection from "../components/HeroSection";
+import Reviews from "../components/Reviews";
+
+import {reviews} from '../data/reviews'
 
 function Home() {
   return (
     <>
-      <div>header</div>
       <HeroSection />
+      <Reviews data={reviews} />
     </>
   );
 }
