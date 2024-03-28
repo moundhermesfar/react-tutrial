@@ -1,9 +1,12 @@
+import HeroSection from "../components/HeroSection";
+
 function Home() {
-    return (
-        <div>
-            home
-        </div>
-    )
+  return (
+    <>
+      <div>header</div>
+      <HeroSection />
+    </>
+  );
 }
 
-export default Home
+export default Home;
