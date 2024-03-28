@@ -1,0 +1,214 @@
+body {
+  overflow-x: hidden;
+  margin: 0;
+}
+
+/* navbar */
+.navbar {
+  background-color: #ffffff; /* Background color */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Shadow */
+  padding: 15px 40px; /* Padding */
+  display: flex;
+  justify-content: space-between; /* Align logo and links */
+  align-items: center; /* Align vertically */
+}
+
+.logo h1 {
+  margin: 0; /* Remove default margin */
+  font-size: 24px; /* Font size */
+  color: #333333; /* Text color */
+}
+
+.links ul {
+  list-style-type: none; /* Remove default list style */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+}
+
+.link {
+  display: inline-block;
+  margin-right: 25px; /* Spacing between links */
+}
+
+.link a {
+  text-decoration: none; /* Remove underline */
+  color: #333333; /* Text color */
+  font-size: 18px; /* Font size */
+}
+
+.link a:hover {
+  color: #007bff; /* Hover color */
+}
+
+/* Footer */
+.footer {
+  box-shadow: 0 -5px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px; /* Padding */
+  text-align: center; /* Center align text */
+  left: 0; /* Align to the left */
+  bottom: 0; /* Align to the bottom */
+  width: 100%; /* Full width */
+  height: 200px;
+  padding-top: 150px;
+  margin-top: 100px;
+}
+
+.footer p {
+  margin: 0; /* Remove default margin */
+  font-size: 14px; /* Font size */
+  color: #333333; /* Text color */
+}
+
+.social-icons {
+  margin-bottom: 10px; /* Add some space below the icons */
+}
+
+.social-icons a {
+  color: #333333; /* Icon color */
+  font-size: 24px; /* Icon size */
+  margin: 0 10px; /* Spacing between icons */
+  margin-right: 50px;
+  text-decoration: none; /* Remove underline */
+}
+
+.social-icons a:hover {
+  color: #007bff; /* Hover color */
+}
+
+/* hero section */
+.hero-section {
+  position: relative;
+  width: 100%;
+  overflow: hidden; /* Hide overflowing content */
+}
+
+.hero-section img {
+  width: 100%;
+  height: 100%; /* Maintain aspect ratio */
+  display: block; /* Remove default inline display */
+}
+
+.overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+}
+
+.overlay h1 {
+  font-size: 60px;
+  margin-bottom: 10px;
+}
+
+.overlay p {
+  font-size: 30px;
+}
+
+/* about section */
+.about-section {
+  margin-top: 100px;
+  padding-left: 100px;
+  display: flex; /* Use flexbox layout */
+  align-items: center; /* Center items vertically */
+  justify-content: space-between; /* Space items evenly */
+}
+
+.about-section .content {
+  width: 700px;
+}
+
+.about-section .content h2 {
+  font-size: 30px;
+}
+
+.about-section .content p {
+  font-size: 20px;
+}
+
+.about-section .image img {
+  width: 500px;
+  height: 500px; /* Make sure image doesn't exceed container width */
+}
+
+.header {
+  margin-top: 100px;
+  text-align: center; /* Center align text */
+  padding: 20px; /* Add padding */
+}
+
+.header h1 {
+  font-size: 24px; /* Set font size */
+  color: #333; /* Set text color */
+  margin-bottom: 10px; /* Add bottom margin */
+}
+
+.header hr {
+  border: none; /* Remove border */
+  border-top: 2px solid #333; /* Add top border */
+  width: 50%; /* Set width */
+  margin: 0 auto; /* Center horizontally */
+}
+
+.header p {
+  color: #999;
+}
+
+.header button {
+  margin-top: 30px;
+  background-color: #007bff; /* Button background color */
+  color: #fff; /* Button text color */
+  padding: 10px 20px; /* Add padding */
+  border: none; /* Remove border */
+  border-radius: 5px; /* Add border radius */
+  font-size: 18px; /* Set font size */
+  cursor: pointer; /* Add cursor pointer */
+}
+
+.header button:hover {
+  background-color: #0056b3; /* Change background color on hover */
+}
+
+.header button a {
+  color: inherit; /* Inherit text color */
+  text-decoration: none; /* Remove underline */
+}
+
+/* Reviews Component CSS */
+.reviews-container {
+  margin-top: 100px;
+  display: grid; /* Use CSS Grid */
+  grid-template-columns: repeat(
+    3,
+    minmax(300px, 1fr)
+  ); /* Create flexible grid columns */
+  gap: 30px; /* Add gap between grid items */
+  padding: 20px;
+}
+
+/* Review Component CSS */
+.review {
+  border: 1px solid #e0e0e0; /* Add border */
+  border-radius: 5px; /* Add border radius */
+  padding: 20px; /* Add padding */
+  display: flex; /* Use flexbox */
+  flex-direction: column; /* Stack items vertically */
+  align-items: center; /* Center items horizontally */
+  text-align: center; /* Center text */
+}
+
+.rating {
+  margin-bottom: 10px; /* Add bottom margin */
+  justify-content: center;
+}
+
+.rating .star {
+  margin-right: 5px; /* Add right margin */
+}
+
+.review p {
+  margin-top: 15px; /* Remove default margin */
+  font-size: 20px; /* Font size */
+  color: #333333; /* Text color */
+}
