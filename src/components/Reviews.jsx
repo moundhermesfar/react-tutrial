@@ -1,11 +1,11 @@
-import Review from './Review'
+import Review from "./Review";
 
-function Reviews({data}) {
+function Reviews({ data }) {
   return (
     <div className="reviews-container">
-        {data.map((review, index) => (
-            <Review key={index} review={review} />
-        ))}
+      {data.map((review, index) => (
+        <Review key={index} review={review} />
+      ))}
     </div>
   );
 }

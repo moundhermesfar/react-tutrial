@@ -212,3 +212,193 @@ body {
   font-size: 20px; /* Font size */
   color: #333333; /* Text color */
 }
+
+/* About page */
+
+.about-container-container {
+  margin-top: 80px;
+  display: grid; /* Use grid layout */
+  grid-template-columns: 1fr 1fr; /* Divide into two equal columns */
+  gap: 20px; /* Add gap between columns */
+}
+
+.about-container {
+  display: flex; /* Use flexbox */
+  flex-direction: column; /* Stack items vertically */
+  align-items: center; /* Center items horizontally */
+  justify-content: center; /* Center items vertically */
+  background-color: #f9f9f9; /* Background color */
+  padding: 20px; /* Add padding */
+  border-radius: 8px; /* Add border radius */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add box shadow */
+}
+
+.contact-container {
+  padding-top: 100px;
+  background-color: #f9f9f9; /* Background color */
+  padding: 20px; /* Add padding */
+  border-radius: 8px; /* Add border radius */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add box shadow */
+}
+
+.about-container-container h1 {
+  font-size: 24px; /* Heading font size */
+  margin-bottom: 10px;
+  text-align: center; /* Add bottom margin */
+}
+
+.about-container-container p {
+  font-size: 16px; /* Paragraph font size */
+  color: #333; /* Text color */
+  margin-bottom: 20px; /* Add bottom margin */
+  max-width: 500px;
+}
+
+.about-image {
+  width: 100%; /* Image width */
+  max-width: 400px; /* Maximum image width */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 8px; /* Add border radius */
+}
+
+/* Cars page */
+
+.cars-container {
+  margin-top: 0px;
+  display: grid; /* Use grid layout */
+  grid-template-columns: 1fr 1fr; /* Divide into two equal columns */
+  gap: 20px; /* Add gap between columns */
+}
+
+.car-grid {
+  text-decoration: none;
+  margin-top: 10px; /* Equivalent to mt-10 */
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fit,
+    minmax(300px, 1fr)
+  ); /* Equivalent to sm:grid-cols-2 */
+  gap: 50px; /* Equivalent to gap-[50px] */
+}
+
+.car-card {
+  text-decoration: none;
+  max-width: 300px; /* Set maximum width for the card */
+  background-color: #ffffff; /* Background color */
+  padding: 20px; /* Padding */
+  border-radius: 8px; /* Border radius */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Box shadow */
+  margin-bottom: 20px; /* Add some bottom margin */
+}
+
+.car-card strong {
+  text-decoration: none;
+  font-size: 18px; /* Font size for text */
+  margin-bottom: 10px; /* Add bottom margin */
+  color: #333333; /* Text color */
+}
+
+.car-card img {
+  width: 100%; /* Make image responsive */
+  height: 200px; /* Maintain aspect ratio */
+  border-radius: 8px; /* Add border radius */
+  margin-top: 10px; /* Add bottom margin */
+}
+
+.cars {
+  margin-top: 0px;
+  text-align: center; /* Center align text */
+  padding-top: 0px; /* Add padding */
+  padding: 20px;
+}
+
+.cars h1 {
+  font-size: 34px; /* Set font size */
+  color: #333; /* Set text color */
+  margin-bottom: 10px; /* Add bottom margin */
+}
+
+.cars hr {
+  margin-bottom: 40px;
+}
+
+.carDetails-container {
+  margin-top: 200px;
+  height: 500px;
+  padding-top: 100px;
+  background-color: #f9f9f9; /* Background color */
+  padding: 20px; /* Add padding */
+  border-radius: 8px; /* Add border radius */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add box shadow */
+  position: sticky; /* Make the container sticky */
+  top: 80px; /* Set the top position relative to its containing block */
+  z-index: 1; /* Ensure the container appears above other content */
+  text-align: center;
+}
+/* contact */
+.contact-form {
+  max-width: 400px; /* Set maximum width */
+  margin: 0 auto; /* Center horizontally */
+  padding: 20px; /* Add padding */
+  background-color: #f9f9f9; /* Background color */
+  border-radius: 8px; /* Add border radius */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add box shadow */
+}
+
+.form-group {
+  margin-bottom: 20px; /* Add bottom margin */
+}
+
+label {
+  display: block; /* Display block */
+  margin-bottom: 5px; /* Add bottom margin */
+}
+
+input[type="email"],
+textarea {
+  width: 100%; /* Full width */
+  padding: 10px; /* Add padding */
+  border: 1px solid #ccc; /* Add border */
+  border-radius: 4px; /* Add border radius */
+}
+
+button {
+  background-color: #007bff; /* Button background color */
+  color: #fff; /* Button text color */
+  padding: 10px 20px; /* Add padding */
+  border: none; /* Remove border */
+  border-radius: 4px; /* Add border radius */
+  cursor: pointer; /* Add cursor pointer */
+}
+
+button:hover {
+  background-color: #0056b3; /* Change background color on hover */
+}
+
+/* car details */
+
+.car-details-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.car-image {
+  width: 400px;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.car-description {
+  font-size: 16px;
+  width: 500px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.car-price {
+  font-size: 18px;
+  font-weight: bold;
+  color: #022244;
+}
