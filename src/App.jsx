@@ -11,12 +11,14 @@ import {
   createRoutesFromElements,
 } from "react-router-dom";
 import RootLayout from "./RootLayout.jsx";
+import ErrorHandler from "./components/ErrorHandler.jsx";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
-    <Route path="/" element={<RootLayout />} errorElement={<div>Error</div>}>
+    <Route path="/" element={<RootLayout />}>
       <Route index element={<Home />} />
       <Route path="about" element={<About />} />
+      <Route path="*" element={<ErrorHandler />} />
     </Route>
   )
 );
