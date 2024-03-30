@@ -1,11 +1,10 @@
 import { Link } from "react-router-dom";
 
-
 function Navbar() {
   const links = [
     { name: "HOME", path: "/" },
     { name: "ABOUT", path: "/about" },
-    // { name: "CARS" },
+    { name: "CARS", path: "/cars" },
     // { name: "CONTACT" },
   ];
 
