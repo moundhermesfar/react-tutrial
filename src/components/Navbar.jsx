@@ -1,11 +1,13 @@
-function Navbar() {
+import { Link } from "react-router-dom";
 
-    const links = [
-        {name: 'HOME'},
-        {name: 'ABOUT'},
-        {name: 'CARS'},
-        {name: 'CONTACT'},
-    ]
+
+function Navbar() {
+  const links = [
+    { name: "HOME", path: "/" },
+    { name: "ABOUT", path: "/about" },
+    // { name: "CARS" },
+    // { name: "CONTACT" },
+  ];
 
   return (
     <nav className="navbar">
@@ -14,9 +16,11 @@ function Navbar() {
       </div>
       <div className="links">
         <ul>
-         {links.map((link, index) => (
-            <li className="link" key={index}>{link.name}</li>
-         ))}
+          {links.map((link, index) => (
+            <Link to={link.path} key={index}>
+              <li className="link">{link.name}</li>
+            </Link>
+          ))}
         </ul>
       </div>
     </nav>
