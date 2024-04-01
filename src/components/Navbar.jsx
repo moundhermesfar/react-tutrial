@@ -10,15 +10,17 @@ function Navbar() {
 
   return (
     <nav className="navbar">
-      <div>
-        <h1 className="logo">CASRSSO</h1>
+      <div className="logo">
+        <Link to="/">
+          <h1 className="link">CASRSSO</h1>
+        </Link>
       </div>
       <div className="links">
         <ul>
           {links.map((link, index) => (
-            <Link to={link.path} key={index}>
-              <li className="link">{link.name}</li>
-            </Link>
+            <li className="link" key={index}>
+              <Link to={link.path}>{link.name}</Link>
+            </li>
           ))}
         </ul>
       </div>

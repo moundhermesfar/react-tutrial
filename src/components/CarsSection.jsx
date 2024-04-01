@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const CarsSection = () => {
   return (
     <div className="header">
@@ -7,7 +9,9 @@ const CarsSection = () => {
         Discover the best selection of cars at unbeatable prices. Find your
         perfect ride today!
       </p>
-      <button>Checkout our CARS</button>
+      <Link to="/cars">
+        <button>Checkout our CARS</button>
+      </Link>
     </div>
   );
 };

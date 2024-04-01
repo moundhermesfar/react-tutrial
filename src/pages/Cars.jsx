@@ -55,6 +55,7 @@ const Cars = () => {
         </div>
       </div>
       <div className="carDetails-container">
+        <h1>Car Details</h1>
         <Outlet />
       </div>
     </div>
