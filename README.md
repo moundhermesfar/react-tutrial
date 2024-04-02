@@ -82,22 +82,23 @@ git clone --single-branch --branch <branch-name>
 <details>
 <summary>Lesson one</summary>
 
-1.  You will learn how to create a simple react component and render it in the browser.
+-  You will learn how to create a simple react component and render it in the browser.
 </details>
 <details>
 <summary>Lesson two</summary>
 
-2.  You will learn about react router and how to navigate between different pages in a react app.
+-  You will learn about react router and how to navigate between different pages in a react app.
 </details>
 <details>
 <summary>Lesson three</summary>
 
-3.  You will learn how to fetch data from an API and display it in a react component using useEffect and useState hooks.
+-  You will learn how to fetch data from an API and display it in a react component using useEffect and useState hooks.
 </details>
 <details>
 <summary>Lesson four</summary>
 
-4.  We will learn how to create a form in react and handle form submission.
+-  We will learn how to create a form in react and handle form submission.
+- > This will be the **main** branch containing the final code of the application.
 </details>
 
 <br>
