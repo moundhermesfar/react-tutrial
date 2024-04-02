@@ -402,3 +402,30 @@ button:hover {
   font-weight: bold;
   color: #022244;
 }
+
+/* spinner */
+.spinner-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.spinner {
+  margin-top: 100px;
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  background-color: #007bff; /* blue color */
+  animation: pulse 1s infinite alternate; /* Using keyframes animation */
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1.5);
+    opacity: 0;
+  }
+}
