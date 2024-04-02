@@ -58,7 +58,7 @@ In this tutorial, we will be builing a real-world application using React. We wi
    <br />
 
 > Note: we will be using vite as our build tool in this tutorial. check the vite documentation [here](https://vitejs.dev/guide/).
-
+<br/>
 
 ## What will you learn?
 
