@@ -354,7 +354,7 @@ label {
   margin-bottom: 5px; /* Add bottom margin */
 }
 
-input[type="rating"],
+input[type="number"],
 textarea {
   width: 100%; /* Full width */
   padding: 10px; /* Add padding */

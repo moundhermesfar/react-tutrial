@@ -1,9 +1,9 @@
 import Review from "./Review";
 
-function Reviews({ data }) {
+function Reviews({ reviews }) {
   return (
     <div className="reviews-container">
-      {data.map((review, index) => (
+      {reviews.map((review, index) => (
         <Review key={index} review={review} />
       ))}
     </div>

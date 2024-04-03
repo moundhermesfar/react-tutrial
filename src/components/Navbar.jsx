@@ -5,7 +5,7 @@ function Navbar() {
     { name: "HOME", path: "/" },
     { name: "ABOUT", path: "/about" },
     { name: "CARS", path: "/cars" },
-    // { name: "CONTACT" },
+    { name: "REVIEWS", path: "/reviews" },
   ];
 
   return (

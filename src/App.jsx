@@ -5,6 +5,7 @@ import ErrorHandler from "./components/ErrorHandler.jsx";
 import RootLayout from "./RootLayout.jsx";
 import Cars from "./pages/Cars.jsx";
 import CarDetails from "./components/CarDetails.jsx";
+import ReviewsPage from "./pages/ReviewsPage.jsx";
 
 import {
   createBrowserRouter,
@@ -18,6 +19,7 @@ const router = createBrowserRouter(
     <Route path="/" element={<RootLayout />}>
       <Route index element={<Home />} />
       <Route path="about" element={<About />} />
+      <Route path="reviews" element={<ReviewsPage />} />
       <Route path="cars" element={<Cars />}>
         <Route path=":carID" element={<CarDetails />} />
       </Route>
