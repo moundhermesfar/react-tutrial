@@ -75,7 +75,7 @@ if you want to clone a specific branch, you can use the following command:
 git clone --single-branch --branch <branch-name>
 ```
 
-> change the **branch-name** with the name of the branch you want to clone.
+> Replace the **branch-name** with the name of the branch you want to clone.
 
 ## Lessons
 
@@ -103,11 +103,11 @@ git clone --single-branch --branch <branch-name>
 
 <br>
 
-> The same css file is used in all the lessons. You can find the css file in the `src` folder, this is note a css tutorial, so you can copy the css file and use it in your project.
+> The same css file is used in all the lessons. You can find the css file in the `src` folder, this isn't a css tutorial, so you can copy the css file and use it in your project.
 
 ## What to do next?
 
-After finishing this tutorial, i will recommend you to enhance your knowldge on javascript and react so i will give you some resources :
+After finishing this tutorial, i will recommend you to learn more about JavaScript and React. Here are some resources to help you with that:
 
 - MDN Web Docs: [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
@@ -122,6 +122,12 @@ After finishing this tutorial, i will recommend you to enhance your knowldge on 
 <br>
 
 Then you can jump to more advanced topics such as:
+
+- Server-side rendering: [Server-side rendering](https://reactjs.org/docs/react-dom-server.html)
+
+- Lazy loading & Code splitting: [Lazy loading](https://reactjs.org/docs/code-splitting.html)
+
+- Next.js: [Next.js](https://nextjs.org/docs/getting-started)
 
 - Tailwind CSS: [Tailwind CSS](https://tailwindcss.com/docs)
 
