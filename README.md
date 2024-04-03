@@ -58,7 +58,7 @@ In this tutorial, we will be builing a real-world application using React. We wi
    <br />
 
 > Note: we will be using vite as our build tool in this tutorial. check the vite documentation [here](https://vitejs.dev/guide/).
-<br/>
+> <br/>
 
 ## What will you learn?
 
@@ -82,22 +82,22 @@ git clone --single-branch --branch <branch-name>
 <details>
 <summary>Lesson one</summary>
 
--  You will learn how to create a simple react component and render it in the browser.
+- You will learn how to create a simple react component and render it in the browser.
 </details>
 <details>
 <summary>Lesson two</summary>
 
--  You will learn about react router and how to navigate between different pages in a react app.
+- You will learn about react router and how to navigate between different pages in a react app.
 </details>
 <details>
 <summary>Lesson three</summary>
 
--  You will learn how to fetch data from an API and display it in a react component using useEffect and useState hooks.
+- You will learn how to fetch data from an API and display it in a react component using useEffect and useState hooks.
 </details>
 <details>
 <summary>Lesson four</summary>
 
--  We will learn how to create a form in react and handle form submission.
+- We will learn how to create a form in react and handle form submission.
 - > This will be the **main** branch containing the final code of the application.
 </details>
 
@@ -134,3 +134,7 @@ Then you can jump to more advanced topics such as:
 - Redux: [Redux](https://redux.js.org/introduction/getting-started)
 
 - TypeScript: [TypeScript](https://www.typescriptlang.org/docs/)
+
+- Http requests and how both the client and the server side communicate: [Axios](https://axios-http.com/docs/intro)
+
+- Web lifecycle: [Jake Archibald](https://youtu.be/cCOL7MC4Pl0?si=zHlyVOetI566yV07)
