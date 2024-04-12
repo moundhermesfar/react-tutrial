@@ -1,13 +1,11 @@
-import { useState, useEffect } from "react";
-import Reviews from "../components/Reviews";
+import { useEffect, useState } from "react";
 import Spinner from "../components/Spinner";
 import { Link } from "react-router-dom";
+import Reviews from "../components/Reviews";
 
 const ReviewsPage = () => {
   const [reviews, setReviews] = useState([]);
   const [loading, setLoading] = useState(false);
-
-  const style = { textAlign: "center" };
 
   async function fetchData() {
     try {
@@ -36,10 +34,8 @@ const ReviewsPage = () => {
       </div>
       {loading ? (
         <Spinner />
-      ) : reviews.length > 1 ? (
-        <Reviews reviews={reviews} />
-      ) : (
-        <div style={style}>
+      ) : reviews.length < 1 ? (
+        <div style={{ textAlign: "center" }}>
           <h2 style={{ textAlign: "center" }}>No reviews yet</h2>
           <h3>
             Be the first to{" "}
@@ -48,6 +44,8 @@ const ReviewsPage = () => {
             </Link>
           </h3>
         </div>
+      ) : (
+        <Reviews reviews={reviews} />
       )}
     </div>
   );

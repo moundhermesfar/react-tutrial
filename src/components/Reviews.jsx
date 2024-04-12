@@ -1,6 +1,6 @@
 import Review from "./Review";
 
-function Reviews({ reviews }) {
+const Reviews = ({ reviews }) => {
   return (
     <div className="reviews-container">
       {reviews.map((review, index) => (
@@ -8,6 +8,6 @@ function Reviews({ reviews }) {
       ))}
     </div>
   );
-}
+};
 
 export default Reviews;

@@ -11,7 +11,7 @@ function Home() {
       <HeroSection />
       <CarsSection />
       <AboutSection />
-      <Reviews data={reviews} />
+      <Reviews reviews={reviews} />
     </>
   );
 }
