@@ -72,7 +72,7 @@ git clone https://github.com/moundhermesfar/react-tutrial.git
 if you want to clone a specific branch, you can use the following command:
 
 ```bash
-git clone --single-branch --branch <branch-name>
+git clone --single-branch --branch <branch-name> https://github.com/moundhermesfar/react-tutrial.git
 ```
 
 > Replace the **branch-name** with the name of the branch you want to clone.
